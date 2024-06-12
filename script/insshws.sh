@@ -6,9 +6,9 @@ apt install python -y
 
 #Install Script Websocket-SSH Python
 wget -O /usr/local/bin/ws-openssh https://raw.githubusercontent.com/ataliomego/autoscript-xray/main/insshws/openssh-socket.py.txt
-wget -O /usr/local/bin/ws-dropbear https://github.com/andristji/Xray-SSH/main/insshws/dropbear-ws.py.txt
-wget -O /usr/local/bin/ws-stunnel https://github.com/andristji/Xray-SSH/main/insshws/ws-stunnel.txt
-#wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/${GitUser}/test1/${namafolder}/main/ws-ovpn && chmod +x /usr/local/bin/ws-ovpn
+wget -O /usr/local/bin/ws-dropbear https://github.com/ataliomego/autoscript-xray/main/insshws/dropbear-ws.py.txt
+wget -O /usr/local/bin/ws-stunnel https://github.com/ataliomego/autoscript-xray/main/insshws/ws-stunnel.txt
+wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/${GitUser}/test1/${namafolder}/main/ws-ovpn && chmod +x /usr/local/bin/ws-ovpn
 
 #izin permision
 #chmod +x /usr/local/bin/ws-openssh
